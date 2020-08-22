@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Botting support is an all-in-one solution for purchasing hyped items without having to worry about out of stock.">
+    <meta name="keywords"
+        content="Boting Support, Cybersole, Cracked Bot, Cracked, Modded, Bot, Botting, Cookgroup, Free, Paid, Reselling, Wrath">
+    <meta name="theme-color" content="#002060">
+    <meta property="og:title" content="Botting Support - The number one provider for getting limited release items" />
+    <meta property="og:url" content="https://bottingsupport.github.io" />
+    <meta property="og:image"
+        content="https://media.discordapp.net/attachments/744594437501485197/746089549993607228/bsp_logo.png" />
+    <meta property="og:site_name" content="Botting Support" />
+    <meta property="og:description"
+        content="Botting support is an all-in-one solution for purchasing hyped items without having to worry about out of stock." />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favico/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="https://media.discordapp.net/attachments/744594437501485197/746089549993607228/bsp_logo.png"
+        type="image/pfp" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="bottingsupport.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81de842f5e.js"></script>
+    <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"
+        integrity="sha256-XmdRbTre/3RulhYk/cOBUMpYlaAp2Rpo/s556u0OIKk=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="bottingsupport"></script>
+    
+
+    <title>Botting Support</title>
+    <style>
+        #menu-toggle:checked+#menu {
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            .showmd {
+                display: block !important;
+            }
+        }
+
+        @keyframes floating {
+            from {
+                transform: translate(0, 0px);
+            }
+
+            65% {
+                transform: translate(0, 20px);
+            }
+
+            to {
+                transform: translate(0, -0px);
+            }
+        }
+
+        .bots {
+            width: 100px;
+            height: 100px;
+        }
+
+        .image-cropper {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .bot-pic {
+            display: inline;
+            margin: 0 auto;
+            margin-left; //centers the image
+            height: 100%;
+            width: auto;
+        }
+
+        .botName {
+            padding-top: 8%;
+            font-size: 12px;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 75%;
+            height: 75%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+
+<body class="antialiased bg-background">
+    <script>
+        AOS.init();
+        AOS.init({
+            once: true,
+            mirror: false,
+        })
+    </script>
+    <!--Landing-->
+    <section id="landing">
+        <div class="px-0 md:px-4 text-center items-center">
+            <div class="mx-auto md:mt-24 mt-20 text-center">
+                <h1 class="text-5xl font-body font-medium text-gray-300">Botting <span
+                        style="color: #42d97c;">Support</span></h1>
+                <p class="text-lg text-gray-600 font-body">The number one provider for getting limited release items</p>
+                <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="rental-charge">
+                    <button style="background-color: #42d97c;"
+                        class="hover:bg-active-hover hover:shadow-lg trans-2 focus:outline-none px-4 py-2 rounded-full mt-8 my-4 text-white"
+                        id="checkoutButton"><span id="avail">Rent</span>
+                        - $25</button>
+                </a>
+                <p class="text-gray-600">This will give you access to a remote server for about a day so you can get aquainted with our software and build trust with our company.<br>After purchase you will be sent login details and instructions to be able to access the server.</p>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section id="footer">
+        <div class="py-10 bg-background-secondary mt-12 font-body">
+            <div class="flex flex-col md:flex-row mx-12 lg:mx-56">
+                <div class="flex flex-col md:flex-col w-full m-4">
+                    <h2 class="text-gray-600 mb-2 text-lg">Links</h2>
+                    <h3 class="text-sm"><a href="#" class="text-gray-700 text-sm hover:text-gray-600 trans-2">Privacy
+                            Policy</a>
+                    </h3>
+                    <h3 class="text-sm"><a href="#" class="text-gray-700 text-sm hover:text-gray-600 trans-2">Terms of
+                            Service</a>
+                    </h3>
+                </div>
+                <div class="flex flex-col md:flex-col w-full m-4">
+                    <h2 class="text-gray-600 mb-2 text-lg">Credit Cards Acceped</h2>
+                    <h3 class="text-gray-700 text-sm">VISA</h3>
+                    <h3 class="text-gray-700 text-sm">Mastercard</h3>
+                    <h3 class="text-gray-700 text-sm">American Express</h3>
+                    <h3 class="text-gray-700 text-sm">Discover</h3>
+                </div>
+                <div class="flex flex-col md:flex-col w-full m-4">
+                    <h2 class="text-gray-600 mb-2 text-lg">Contact</h2>
+                    <h3 class="text-sm"><a href="mailto: admin@bottingsupport.io"
+                            class="text-gray-700 text-sm hover:text-gray-600 trans-2">admin@bottingsupport.io</a></h3>
+                    <h3 class="text-sm"><a href="https://twitter.com/bottingsupport"
+                            class="text-gray-700 text-sm hover:text-gray-600 trans-2">Twiter</a>
+                    <h3 class="text-sm"><a href="#"
+                            class="text-gray-700 text-sm hover:text-gray-600 trans-2">Instagram</a></h3>
+                    
+                    </h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Modal Script-->
+    <script>
+        var modal, closeButton, modalClose, openPurchase
+    </script>
+    <!--ScrollSpy-->
+    <script>
+        $(document).ready(function () {
+            // Add scrollspy to <body>
+            $('body').scrollspy({ target: ".navbar", offset: 50 });
+
+            // Add smooth scrolling on all links inside the navbar
+            $("#menu a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }  // End if
+            });
+        });
+    </script>
+    <script>
+        $('.main-modal').hide()
+        async function checkPassword() {
+            let searchParams = new URLSearchParams(window.location.search);
+            if (searchParams.has('password')) {
+                let response = await axios.post("https://3169aj92le.execute-api.us-east-1.amazonaws.com/prod/checkpassword/", { password: searchParams.get('password') }, { headers: { "Content-Type": "application/json" } })
+                if (response.status == 200) {
+                    eval(response.data)
+                    $("#checkoutButton").prop('disabled', false)
+                    $("#avail").text("Purchase")
+                }
+            }
+        }
+        checkPassword()
+    </script>
+
+</body>
+
+</html>
